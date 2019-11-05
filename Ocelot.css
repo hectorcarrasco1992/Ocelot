@@ -1,0 +1,36 @@
+
+ #first-row{
+     display: flex;
+    }  
+    
+    #burger-pic{
+        
+        justify-content: flex-start;
+        flex-direction: row;
+        width: 50%;
+    }
+    
+    
+    
+ #sign-in{
+     margin-left: 100px;;
+     color:#026CDB;
+     justify-content: flex-end;
+     font-family:"Comic Sans MS", "Comic Sans";
+ }
+
+ #order-food{
+    display: flex;
+    align-content: flex-end;
+    margin-bottom: auto;
+    flex-direction: column;
+    
+     
+     
+     
+
+ }
+    
+
+
+
