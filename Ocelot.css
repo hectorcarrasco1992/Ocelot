@@ -26,14 +26,14 @@
     align-content: flex-end;
     padding-left: 100px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between normal;
     font-size: 50px;
     
 }
 
 #perks{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding-top: 100px;
     width: 100%;
@@ -94,6 +94,8 @@
     padding-top: 100px;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
+    padding-left: 200px;
     
 }
     
@@ -102,12 +104,43 @@
 #eating{
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: ;
+    
+    
 
-    width: 500px;;
+    width: 50%;
 }
 
 #pick-up{
-    align-items: flex-start;
-    justify-content: flex-start;
+    color: black;
+    width: 100%;
+    font-size: 45px;
+    word-wrap: break-word;
 }    
+
+.explore{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: graphik;
+    font-weight: bold;
+}
+
+#pick-up-under-text{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.about{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #EFEFEF;
+}
+
+#about-content{
+    justify-content: flex-end;
+    width: 50%;
+}
+
+#about-text
