@@ -26,7 +26,7 @@
 
 #order-food{
     display: flex;
-    align-content: center;
+    align-content: flex-end;
     padding-left: 100px;
     flex-direction: column;
     justify-content:center;
@@ -155,7 +155,8 @@
 
 .sign-up{
     display: flex;
-    background-color: blue;
+    background-color:#3232AA;
+    justify-content: space-evenly;
 }
 
 #email{
@@ -164,7 +165,7 @@
     font-size: 30px;
     color: white;
     font-family:"Comic Sans MS", "Comic Sans";
-    justify-content: space-evenly;
+    
     
 }
 #email-text{
@@ -172,7 +173,72 @@
 }
 
 #count-me-in{
+    background-color: #026CDB;
     width: 200px;
     height: 50px;
+    font-size: 20px;
+    color: white;
+    font-family:"Comic Sans MS", "Comic Sans" ;
     
+}
+
+.know-us{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family:"Comic Sans MS", "Comic Sans" ;
+}
+
+.useful-links{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family:"Comic Sans MS", "Comic Sans";
+}
+
+.partner{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+
+#get{
+    font-size: 20px;;
+    font-weight: bold;
+}
+
+#useful{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#connect{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#partner-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#find-button{
+    width: 100px;
+    height: 50px;
+    background-color: #0058B8;
+    font-family:"Comic Sans MS", "Comic Sans" ;
+    color: white;
+    font-size: 15px;
+}
+
+#search{
+    height: 50px;
+    width: 100%;
+    align-items: flex-start;
+    
+}
+
+.search-input{
+    display: flex
 }
