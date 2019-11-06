@@ -31,6 +31,7 @@
     flex-direction: column;
     justify-content:center;
     font-size: 50px;
+    font-weight: bold;
     
 }
 
@@ -129,8 +130,9 @@
 }
 
 #pick-up-under-text{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: lighter;
+    font-family: serif;
 }
 
 .about{
@@ -236,9 +238,86 @@
     height: 50px;
     width: 100%;
     align-items: flex-start;
+    border-radius: 10px;
     
 }
 
 .search-input{
     display: flex
+}
+
+.browse{
+    display: flex;
+    background-color: #3232AA;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.browse-cuisine{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+
+.cities{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family:"Comic Sans MS", "Comic Sans" ;
+    
+}
+
+.more-cities{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans";
+
+}
+
+#atl-start{
+    padding-top: 20px;
+}
+
+.browse-by-rest{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+
+#header1{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#header2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#header3{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+#local-head{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Roboto sans-serif;
+}
+
+#delivery-head{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Roboto sans-serif;
+}
+
+#exclusive-head{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Roboto sans-serif;
 }
